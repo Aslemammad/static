@@ -34,4 +34,4 @@ jobs:
           message: "chore: update sponsors.svg"
           add: "sponsors.*"
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
