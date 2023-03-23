@@ -9,7 +9,8 @@ on:
 
 jobs:
   update-sponsors:
-    environment: SPONSORKIT_GITHUB_TOKEN
+    # environment: SPONSORKIT_GITHUB_TOKEN
+    environment: deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
